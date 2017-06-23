@@ -19,8 +19,9 @@ s.platform          = :ios
 s.ios.deployment_target = '10.3'
 
 # 3rd party dependencies
-s.dependency 'FastStart_DTBonjour', '10.0.0'
+# s.dependency 'FastStart_DTBonjour', '10.0.0'
 
+s.dependency 'DTBonjour', '1.1.2'
 s.dependency 'DTFoundation', '1.7.12'
 
 
