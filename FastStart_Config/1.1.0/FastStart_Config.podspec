@@ -34,6 +34,7 @@ s.source            = { :http => 'https://github.com/scottcarter/FastStart_Confi
 
 # Dependencies on other frameworks I maintain.
 s.dependency 'FastStart_Bonjour'
+s.dependency 'FastStart_Utils'
 
 
 
