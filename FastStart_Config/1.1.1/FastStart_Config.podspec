@@ -34,8 +34,8 @@ s.source            = { :git => 'https://github.com/scottcarter/FastStart_Config
 
 
 # Dependencies on other frameworks I maintain.
-s.dependency 'FastStart_Bonjour', '1.1.0'
-s.dependency 'FastStart_Utils', '1.1.0'
+s.dependency 'FastStart_Bonjour', '1.1.1'
+s.dependency 'FastStart_Utils', '1.1.1'
 
 
 
