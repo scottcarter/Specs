@@ -27,7 +27,9 @@ s.ios.vendored_frameworks = 'FastStart_Utils.framework'
 
 # s.source            = { :http => 'http://127.0.0.1/FastStart_Utils/FastStart_Utils.framework.zip' }
 
-s.source            = { :http => 'https://github.com/scottcarter/FastStart_Utils/raw/master/FastStart_Utils.framework.zip' }
+s.source            = { :git => 'https://github.com/scottcarter/FastStart_Utils.git', :tag => s.version.to_s }
+
+#s.source            = { :http => 'https://github.com/scottcarter/FastStart_Utils/raw/master/FastStart_Utils.framework.zip' }
 
 
 # Dependencies on other frameworks I maintain.
