@@ -29,7 +29,7 @@ end
 s.subspec 'All' do |all|
 all.source_files   = 'Basic/Library/**/*.{swift}', 'Basic/AppDeveloperKit/*'
 
-s.resource_bundles = {
+all.resource_bundles = {
 'Basic' => ['Basic/Library/**/*.{storyboard}']
 }
 
